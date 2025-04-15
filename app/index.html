@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="main">
+      <form id="main-form">
+        <div class="form-input-container">
+          <input
+            type="form-input-task"
+            id="form-input-task"
+            name="form-input-task"
+            placeholder="Create some task..."
+            autocomplete="off"
+          />
+          <p class="form-error-text">A task must be provided</p>
+        </div>
+        <button disabled type="button" class="form-btn">
+          <svg
+            height="20px"
+            width="20px"
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 60.364 60.364"
+            xml:space="preserve"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <path
+                  d="M54.454,23.18l-18.609-0.002L35.844,5.91C35.845,2.646,33.198,0,29.934,0c-3.263,0-5.909,2.646-5.909,5.91v17.269 L5.91,23.178C2.646,23.179,0,25.825,0,29.088c0.002,3.264,2.646,5.909,5.91,5.909h18.115v19.457c0,3.267,2.646,5.91,5.91,5.91 c3.264,0,5.909-2.646,5.91-5.908V34.997h18.611c3.262,0,5.908-2.645,5.908-5.907C60.367,25.824,57.718,23.178,54.454,23.18z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </form>
+      <ul id="task-list">
+        <li class="task-item">
+          <button class="task-delete-btn">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6 7C5.72146 7 5.45554 7.11618 5.26628 7.32055C5.07702 7.52492 4.98158 7.79897 5.00295 8.0767L5.78988 18.3068C5.95019 20.3908 7.68795 22 9.7781 22H14.2219C16.3121 22 18.0498 20.3908 18.2101 18.3068L18.9971 8.0767C19.0184 7.79897 18.923 7.52492 18.7337 7.32055C18.5445 7.11618 18.2785 7 18 7H6Z"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16 2.99999L19 3C19.5523 3 20 3.44772 20 4C20 4.55228 19.5523 5 19 5H5C4.44772 5 4 4.55228 4 4C4 3.44772 4.44772 3 5 3H8V2.99999L9.84479 2.99999C10.2321 2.99999 10.5939 2.8064 10.8087 2.4841C11.3754 1.63404 12.6246 1.63405 13.1913 2.4841C13.4061 2.8064 13.7679 2.99999 14.1552 2.99999L16 2.99999Z"
+                ></path>
+              </g>
+            </svg>
+          </button>
+          <p class="task-text-check">Ramon</p>
+          <button class="task-check-btn">
+            <svg
+              fill="#ffffff"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M351.605 663.268l481.761-481.761c28.677-28.677 75.171-28.677 103.847 0s28.677 75.171 0 103.847L455.452 767.115l.539.539-58.592 58.592c-24.994 24.994-65.516 24.994-90.51 0L85.507 604.864c-28.677-28.677-28.677-75.171 0-103.847s75.171-28.677 103.847 0l162.25 162.25z"
+                ></path>
+              </g>
+            </svg>
+          </button>
+        </li>
+        <li class="task-item">
+          <button class="task-delete-btn">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6 7C5.72146 7 5.45554 7.11618 5.26628 7.32055C5.07702 7.52492 4.98158 7.79897 5.00295 8.0767L5.78988 18.3068C5.95019 20.3908 7.68795 22 9.7781 22H14.2219C16.3121 22 18.0498 20.3908 18.2101 18.3068L18.9971 8.0767C19.0184 7.79897 18.923 7.52492 18.7337 7.32055C18.5445 7.11618 18.2785 7 18 7H6Z"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16 2.99999L19 3C19.5523 3 20 3.44772 20 4C20 4.55228 19.5523 5 19 5H5C4.44772 5 4 4.55228 4 4C4 3.44772 4.44772 3 5 3H8V2.99999L9.84479 2.99999C10.2321 2.99999 10.5939 2.8064 10.8087 2.4841C11.3754 1.63404 12.6246 1.63405 13.1913 2.4841C13.4061 2.8064 13.7679 2.99999 14.1552 2.99999L16 2.99999Z"
+                ></path>
+              </g>
+            </svg>
+          </button>
+          <p class="task-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            cupiditate asperiores exercitationem magnam corrupti ducimus
+            quisquam necessitatibus dignissimos.
+          </p>
+          <button class="task-check-btn-none">
+            <svg
+              fill="#ffffff"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M351.605 663.268l481.761-481.761c28.677-28.677 75.171-28.677 103.847 0s28.677 75.171 0 103.847L455.452 767.115l.539.539-58.592 58.592c-24.994 24.994-65.516 24.994-90.51 0L85.507 604.864c-28.677-28.677-28.677-75.171 0-103.847s75.171-28.677 103.847 0l162.25 162.25z"
+                ></path>
+              </g>
+            </svg>
+          </button>
+        </li>
+        <li class="task-item">
+          <button class="task-delete-btn">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6 7C5.72146 7 5.45554 7.11618 5.26628 7.32055C5.07702 7.52492 4.98158 7.79897 5.00295 8.0767L5.78988 18.3068C5.95019 20.3908 7.68795 22 9.7781 22H14.2219C16.3121 22 18.0498 20.3908 18.2101 18.3068L18.9971 8.0767C19.0184 7.79897 18.923 7.52492 18.7337 7.32055C18.5445 7.11618 18.2785 7 18 7H6Z"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16 2.99999L19 3C19.5523 3 20 3.44772 20 4C20 4.55228 19.5523 5 19 5H5C4.44772 5 4 4.55228 4 4C4 3.44772 4.44772 3 5 3H8V2.99999L9.84479 2.99999C10.2321 2.99999 10.5939 2.8064 10.8087 2.4841C11.3754 1.63404 12.6246 1.63405 13.1913 2.4841C13.4061 2.8064 13.7679 2.99999 14.1552 2.99999L16 2.99999Z"
+                ></path>
+              </g>
+            </svg>
+          </button>
+          <p class="task-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+          <button class="task-check-btn-none">
+            <svg
+              fill="#ffffff"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M351.605 663.268l481.761-481.761c28.677-28.677 75.171-28.677 103.847 0s28.677 75.171 0 103.847L455.452 767.115l.539.539-58.592 58.592c-24.994 24.994-65.516 24.994-90.51 0L85.507 604.864c-28.677-28.677-28.677-75.171 0-103.847s75.171-28.677 103.847 0l162.25 162.25z"
+                ></path>
+              </g>
+            </svg>
+          </button>
+        </li>
+        <li class="task-item">
+          <button class="task-delete-btn">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6 7C5.72146 7 5.45554 7.11618 5.26628 7.32055C5.07702 7.52492 4.98158 7.79897 5.00295 8.0767L5.78988 18.3068C5.95019 20.3908 7.68795 22 9.7781 22H14.2219C16.3121 22 18.0498 20.3908 18.2101 18.3068L18.9971 8.0767C19.0184 7.79897 18.923 7.52492 18.7337 7.32055C18.5445 7.11618 18.2785 7 18 7H6Z"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16 2.99999L19 3C19.5523 3 20 3.44772 20 4C20 4.55228 19.5523 5 19 5H5C4.44772 5 4 4.55228 4 4C4 3.44772 4.44772 3 5 3H8V2.99999L9.84479 2.99999C10.2321 2.99999 10.5939 2.8064 10.8087 2.4841C11.3754 1.63404 12.6246 1.63405 13.1913 2.4841C13.4061 2.8064 13.7679 2.99999 14.1552 2.99999L16 2.99999Z"
+                ></path>
+              </g>
+            </svg>
+          </button>
+          <p class="task-text-check">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <button class="task-check-btn">
+            <svg
+              fill="#ffffff"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M351.605 663.268l481.761-481.761c28.677-28.677 75.171-28.677 103.847 0s28.677 75.171 0 103.847L455.452 767.115l.539.539-58.592 58.592c-24.994 24.994-65.516 24.994-90.51 0L85.507 604.864c-28.677-28.677-28.677-75.171 0-103.847s75.171-28.677 103.847 0l162.25 162.25z"
+                ></path>
+              </g>
+            </svg>
+          </button>
+        </li>
+      </ul>
+      <div id="tasks-counter">
+        <div id="task-total"><span>Total:</span> 0</div>
+        <div id="task-completed"><span>Completed:</span> 0</div>
+        <div id="task-incompleted"><span>Incompleted:</span> 0</div>
+      </div>
+    </main>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="task.js"></script>
+  </body>
+</html>
