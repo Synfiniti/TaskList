@@ -2,7 +2,7 @@
 
 Welcome to the To Do App! This is a simple and easy-to-use application that helps you organize your daily tasks. With this tool, you can quickly and efficiently add, edit, mark as completed, and delete tasks.
 
-Web Live: https://synfiniti.github.io/ToDoApp/
+Web Live: https://synfiniti.github.io/TaskList/app/
 
 ## Key Features
 
